@@ -1,6 +1,7 @@
 pipeline {
-  agent any
-
+  agent {
+    label 'linux' // Make sure the Jenkins node is labeled as 'linux'
+  }
   stages {
     stage('Checkout Code') {
       steps {
