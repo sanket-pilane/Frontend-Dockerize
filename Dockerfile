@@ -9,10 +9,10 @@ RUN npm install --legacy-peer-deps
 
 COPY . .
 
+RUN npm run build
+
 # Set environment to production BEFORE building
 ENV NODE_ENV=production
-
-RUN npm run build
 
 # Stage 2: Serve with Nginx
 FROM nginx:alpine
