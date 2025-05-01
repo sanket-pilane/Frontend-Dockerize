@@ -25,7 +25,7 @@ const Hero = () => {
             Explore the Possibilities of&nbsp;AI&nbsp;Chatting with{` `}
             <span className="inline-block relative">
               {" "}
-              AI
+              Brainwave
               <img
                 src={curve}
                 alt="curve"
